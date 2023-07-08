@@ -36,7 +36,7 @@ function rot13(encodedStr) {
   // Only change code below this line
 	
 	for(let i=0;i<encodedStr.length;i++){
-		let encodchar = encodedStr.charAt[i];
+		let encodchar = encodedStr.charAt(i);
 		let decodchar = lookup[encodchar];
 
 		if(decodchar){
